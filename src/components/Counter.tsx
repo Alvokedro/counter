@@ -4,7 +4,7 @@ export const Counter = () => {
     const [count,setCount] = useState(0);
     const [inputValue,setInputValue] = useState(0);
     const [start,setStart] = useState(false)
-    const [pause,setPause] = useState(false)
+    const [,setPause] = useState(false)
 
     function handleChange(e : ChangeEvent<HTMLInputElement>) {
         setInputValue(Number(e.target.value))
